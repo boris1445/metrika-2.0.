@@ -1,0 +1,242 @@
+/* h1 {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+    width: 956px;
+    height: 120px;
+    top: 128px;
+    left: 125px;
+    margin-bottom: 30px;  
+} */
+body {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 125px;
+    width: 1400px;
+    background: #FFFFFF;
+}
+
+.interior {
+    margin-top: 30px;
+    padding-top: 379px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 1150px;
+    background-image: url('../resources/img/interior.png');
+    
+}
+
+.image-text {
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: -0.03em;
+}
+
+p.description {
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    text-align: left;
+    letter-spacing: -0.03em;
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    
+
+    border-radius: 5px;
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #AD1818;
+    background-color: white;
+    border: 1px solid #AD1818;
+}
+
+/* .main-block-1 {
+    margin-left: 125px;
+    width: 1150px;
+    height: 650px;
+    top: 128px;
+    left: 125px;
+    margin-bottom: 150px; 
+}
+
+.main-block-1-title {
+    width: 956px;
+}
+
+.main-block-1-title h1 {
+    
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+
+
+}
+
+
+.main-text {
+    width: 1150px;
+    height: 500px;
+    background-image: url(../resources/img/main_1.png);
+    background-size: contain;
+    background-repeat: no;
+}
+
+.main-text p {
+    width: 430px;
+    height: 81px;
+    top: 657px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 379px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-block-2 {
+    margin-left: 125px;
+    width: 1051px;
+    height: 518px;
+    top: 928px;
+    left: 125px;
+    border-radius: 5px;
+}
+
+.main-block-2 p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -3%;
+    margin-bottom: 30px;
+}
+
+.main-block-2 h2 {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -3%;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    display: block;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    background-color: #AD1818;
+    width: 175px;
+    height: 27.32px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+}
+
+.btn
+} */
+
+/* .counter {
+    font-size: 16px;
+}
+
+.btn-main-plus {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.71px;
+    letter-spacing: 0%;
+    color: white;
+    border: none;
+
+    width: 500px;
+    height: 100px;
+    top: 206px;
+    left: 470px;
+    border-radius: 20px;
+    background-color: #4191FF;
+    margin-bottom: 36px;
+}
+
+.btn-main-reset {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.71px;
+    letter-spacing: 0%;
+    color: white;
+    border: none;
+
+    width: 500px;
+    height: 100px;
+    top: 206px;
+    left: 470px;
+    border-radius: 20px;
+    background-color: #D45366;
+}
+
+.counter {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 32px;
+} */
